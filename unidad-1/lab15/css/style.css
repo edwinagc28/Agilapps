@@ -1,0 +1,8 @@
+.buttons{
+	width: 100px;
+	float: left;
+	text-align: center;
+	margin: 5px;
+	border: 2 solid;
+	font-weight: bold;
+} 
