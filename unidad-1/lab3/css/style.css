@@ -1,0 +1,14 @@
+/*contar el numero de nodos en el DOM y mostrar su texto*/
+/*lab3*/
+.alert-color{
+	font-size: italic;
+	background-color: #0f0;
+	font-size: 1.2em;
+}
+
+.success-color{
+	font-style: italic;
+	background-color:#28c72f;
+	font-size: 1.5em;
+}
+

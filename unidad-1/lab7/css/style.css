@@ -1,0 +1,11 @@
+.features{
+	color: green;
+	font-style: bold;
+	font-style: 16px;
+}
+
+.alert-color{
+	color: red;
+	font-style: italic;
+	font-size: 22px;
+}
