@@ -1,4 +1,4 @@
-<!--Arrat de filtrado para mostrar sólo los datos deseados-->
+<!---->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -7,11 +7,17 @@
 	<title> Instalando Jquery</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/lab9.js"></script>
+    <script type="text/javascript" src="js/lab18.js"></script>
 </head>
 <body>
-	<h3>Members of group</h3>
-	<p></p>
+	<form id="signup" method="post" action="">
+		<div>
+			<span class="label">Enter you ID</span>
+			<input type="text" class="infobox" name="userid">
+			<span class="error"> User ID contain only letters, numbers o underscore</span>
+		</div>
+		<input class="submit" type="submit" value="submit"/>
+	</form>
 	
 </body>
 </html>  
