@@ -1,0 +1,11 @@
+/*Elements dialog and button*/
+.align-left{
+	float: left;
+}
+.align-right{
+	float: right;
+}
+
+div p{
+	text-align: center;
+}
