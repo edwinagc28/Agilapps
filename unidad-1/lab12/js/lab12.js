@@ -1,4 +1,4 @@
-//Conversion de un array numerico en una cadena y la busqueda de subcadenas
+//Convert a numeric array into a string and substring search
 $(document).ready(function(){
 	var members = [14, 15, 56 , 8888, 544, 31231243, 321312313];
 

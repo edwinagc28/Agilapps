@@ -1,4 +1,4 @@
-// Visualizacion de un mensaje en jquery
+// Display a message in jQuery
  $(document).ready(function(){
   $(':submit').click(function(e){
   	$(':text').each(function(){

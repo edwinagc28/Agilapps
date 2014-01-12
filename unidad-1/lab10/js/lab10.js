@@ -1,4 +1,4 @@
-//Dividir un array
+//Split an array
 $(document).ready(function(){
 	var members = [34, 35, 22, 12234, 344, 56];
 

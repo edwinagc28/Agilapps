@@ -1,4 +1,4 @@
-// La combianción de Dos Arrays
+// Combining Two Arrays
 $(document).ready(function(){
 	var membersOne = [34, 55, 56, 76, 89];
 	var membersTwo = [12234, 12233, 445, 454, 322, 122];

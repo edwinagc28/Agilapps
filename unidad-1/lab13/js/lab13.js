@@ -1,4 +1,4 @@
-//crear un array de objetos en javascript
+//Create an array of objects in javascript
 $(document).ready(function(){
 	var users = [
 		{

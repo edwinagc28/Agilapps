@@ -1,4 +1,4 @@
-//Ordenación de un conjunto de objetos en javascript
+//Sorting an array of objects in Javascript
 $(document).ready(function(){
 	var users = [
 		{

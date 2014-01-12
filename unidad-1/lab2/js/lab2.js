@@ -1,3 +1,4 @@
+//Lab 2
 $(document).ready(function(){
 
 	$('ul#first>li:odd').addClass('alert-color'); 

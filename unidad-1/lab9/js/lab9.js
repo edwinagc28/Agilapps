@@ -1,4 +1,4 @@
-//Array de Filtrado para mostrar solo los datos deseados
+//Array of filter to display only the desired data
 $(document).ready(function(){
 	var members = ["Giovanny" ,"Edwin", "Daniel Alejandro","Alejandro", "Manuel"];
 

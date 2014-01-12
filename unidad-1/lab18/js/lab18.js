@@ -1,4 +1,4 @@
-//Array de filtrado para mostrar solo los datos deseados 
+//Validation of a user name with JQUERY 
 $(document).ready(function(){
 	$('.error').hide();
 	$('.submit').click(function(event){
