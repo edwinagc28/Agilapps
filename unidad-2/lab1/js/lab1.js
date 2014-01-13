@@ -1,0 +1,1 @@
+//Basic structure of html5 and jQuery Mobile
