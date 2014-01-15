@@ -18,9 +18,6 @@ $(document).ready(function(){
 
 		window.localStorage.setItem("phone", myPhone);
 		$('#buttonMyName').append('<h2>'+ myPhone + '</h2>');
-
-		
-
 	});
 
 });
