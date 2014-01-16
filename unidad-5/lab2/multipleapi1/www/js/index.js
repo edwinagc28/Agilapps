@@ -34,6 +34,7 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        document.addEventListener("backbutton", backButtonPress, false);
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -47,17 +48,21 @@ var app = {
         console.log('Received Event: ' + id);
     }
     //Backbutton
+};
 
-    backButtonPress : function(){
+function backButtonPress(){
         myDevice = document.getElementById('info');
 
         myDevice.innerHTML = 'Cargando Información del dispositivo: ' + '<br/>' + 
-        'Dispositivo Phonegap:' + device.Phonegap + '<br/>'+
+        'Nombre del dispositivo:' + device.name + '<br/>'+
+        'dispositivo Phonegap: ' + device.cordova + '<br>'+ 
         'plataforma: ' + device.platform + '<br/>'+
         'UIID : ' + device.uuid + '<br/>' +
         'version: ' device.version;
     }
-};
+
+
+
 
 
 //check connection
@@ -118,3 +123,6 @@ function onBeep(){
 function onVibrate(){
     navigator.notification.vibrate(4000);
 }
+
+//En caso de error borrar
+
