@@ -47,3 +47,10 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+        var myContact = navigator.contacts.create({"displayName": "Test User"});
+        myContact.note = "This contact has a note.";
+        console.log("The contact, " + myContact.displayName + ", note: " + myContact.note);
+    }
