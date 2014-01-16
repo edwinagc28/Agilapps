@@ -1,0 +1,112 @@
+<!--Elements dialog and button-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Jquery Mobile</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="../assets/css/jquery.mobile-1.4.0.min.css" />
+        <link rel="stylesheet" type="text/css" href="../assets/css/jquery.mobile.structure-1.4.0.min.css" />
+        <link rel="stylesheet" type="text/css" href="../assets/css/jquery.mobile.theme-1.4.0.min.css" /> 
+        <link rel="stylesheet" type="text/css" href="../assets/css/jquery.mobile.external-png-1.4.0.min.css" />
+        <link rel="stylesheet" type="text/css" href="../assets/css/jquery.mobile.icons-1.4.0.min.css" />
+        <link rel="stylesheet" type="text/css" href="../assets/css/jquery.mobile.inline-png-1.4.0.min.css" />
+        <link rel="stylesheet" type="text/css" href="../assets/css/jquery.mobile.inline-svg-1.4.0.min.css" />  
+    </head>
+    <body>
+        <!--Page 1-->
+        <div data-role="page" id="page-one">
+           
+            <div data-role="header" data-theme= "a">
+                <h1>Listas Anidadas en Jquery mobile</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#page-two">Pagina 2</a></li>
+                        <li><a href="page3.html">Pagina 3</a></li>
+                        <li><a href="#">Acerca de </a> </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div data-role="content"> 
+                <ul data-role="listview">
+                 <div data-role="collapsible-set" >
+                      <div data-role="collapsible">
+                      <h3>Listar Proyectos</h3>
+                        <ul data-role="listview">
+                            <li><a href="">Detalle del proyecto</a></li>
+                            <li><a href="">Listar tareas</a></li>
+                            <li><a href="">Crear Tareas </a></li>
+                            <li><a href="">Listar Actores</a></li>
+                        </ul>
+                      </div>
+                      <div data-role="collapsible">
+                        <h3>crear Proyecto</h3>
+                        <ul data-role="listview">
+                            <li><a href="">Nombre del proyecto</a></li>
+                        </ul>
+                            
+                      </div>
+                </div>
+             </ul>
+                       
+             </div> 
+
+            <div data-role="footer" data-position="fixed">
+                <p>Copyrigth</p>
+            </div>
+        </div><!--End Page 1-->
+        <!--Page 2-->
+        <div data-role="page" id="page-two">
+
+            <div data-role="header" data-fullscreen="true">
+                <h1>Listas Anidadas en Jquery mobile</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#page-two">Pagina 2</a></li>
+                        <li><a href="page3.html">Pagina 3</a></li>
+                        <li><a href="#">Acerca de </a> </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div data-role="content">
+            </div>
+                <ul data-role="listview">
+                 <div data-role="collapsible-set" >
+                      <div data-role="collapsible">
+                      <h3>Listar Proyectos</h3>
+                        <ul data-role="listview">
+                            <li><a href="">Detalle del proyecto</a></li>
+                            <li><a href="">Listar tareas</a></li>
+                            <li><a href="">Crear Tareas </a></li>
+                            <li><a href="">Listar Actores</a></li>
+                        </ul>
+                      </div>
+                      <div data-role="collapsible">
+                        <h3>crear Proyecto</h3>
+                        <ul data-role="listview">
+                            <li><a href="">Nombre del proyecto</a></li>
+                        </ul>
+                            
+                      </div>
+                </div>
+             </ul>
+
+            <div data-role="footer" data-position="fixed">
+                <p>Copyrigth</p>
+            </div>
+        </div>
+       
+                    
+        <div data-role="footer" data-position="fixed">
+            <p>Copyrigth</p>
+        </div>
+
+        <!-- Scripts JS -->
+        <script type="text/javascript" src="../assets/js/jquery.js"></script>
+        <script type="text/javascript" src="js/custom-jquerymobile.js"></script>
+        <script type="text/javascript" src="../assets/js/jquery.mobile-1.4.0.min.js"></script>
+        <script type="text/javascript" src="js/lab7.js"></script>
+    </body>
+</html>
