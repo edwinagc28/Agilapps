@@ -54,6 +54,6 @@ function onLoad() {
 
     // device APIs are available
     //
-    function onDeviceReady() {
+    function device() {
         // Now safe to use device APIs
     }

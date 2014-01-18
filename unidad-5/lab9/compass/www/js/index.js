@@ -34,6 +34,7 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        navigator.compass.getCurrentHeading(onSuccess, onError);
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -47,16 +48,7 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
-document.addEventListener("deviceready", onDeviceReady, false);
 
-    // device APIs are available
-    //
-    function onDeviceReady() {
-        navigator.compass.getCurrentHeading(onSuccess, onError);
-    }
-
-    // onSuccess: Get the current heading
-    //
     function onSuccess(heading) {
         alert('Heading: ' + heading.magneticHeading);
     }

@@ -48,8 +48,8 @@ var app = {
     }
 };
 
-document.addEventListener("deviceready", onDeviceReady, false);
-function onDeviceReady() {
+
+function contacts() {
         var myContact = navigator.contacts.create({"displayName": "Test User"});
         myContact.note = "This contact has a note.";
         console.log("The contact, " + myContact.displayName + ", note: " + myContact.note);

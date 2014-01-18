@@ -48,7 +48,7 @@ var app = {
     }
 };
 
-function onDeviceReady() {
+function onSucces() {
         checkConnection();
     }
 

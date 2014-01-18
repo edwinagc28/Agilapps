@@ -33,7 +33,9 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        app.receivedEvent('deviceready');
+      app.receivedEvent('deviceready');
+      app.pictureSource=navigator.camera.PictureSourceType;
+      app.destinationType=navigator.camera.DestinationType;
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -47,22 +49,14 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
+
  var pictureSource;   // picture source
     var destinationType; // sets the format of returned value
 
-    // Wait for device API libraries to load
-    //
-    document.addEventListener("deviceready",onDeviceReady,false);
-
     // device APIs are available
     //
-    function onDeviceReady() {
-        pictureSource=navigator.camera.PictureSourceType;
-        destinationType=navigator.camera.DestinationType;
-    }
-
-    // Called when a photo is successfully retrieved
-    //
+    
     function onPhotoDataSuccess(imageData) {
       // Uncomment to view the base64-encoded image data
       // console.log(imageData);
