@@ -8,8 +8,9 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
-    <access origin="*" />
+        <access origin="*" />
     <feature name="Compass">
-    	<param name="android-package" value="org.apache.cordova.deviceorientation.CompassListener" />
-	</feature>
+        <param name="android-package" value="org.apache.cordova.deviceorientation.CompassListener" />
+    </feature>
+
 </widget>
