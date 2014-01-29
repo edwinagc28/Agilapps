@@ -4,16 +4,11 @@ var app = {
         this.bindEvents();
     },
     // Bind Event Listeners
-    //
-    // Bind any events that are required on startup. Common events are:
-    // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
     },
+
     // deviceready Event Handler
-    //
-    // The scope of 'this' is the event. In order to call the 'receivedEvent'
-    // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
     },
@@ -38,17 +33,13 @@ function captureSuccess(mediaFiles) {
     }
 
     // Called if something bad happens.
-    //
     function captureError(error) {
         var msg = 'An error occurred during capture: ' + error.code;
         navigator.notification.alert(msg, null, 'Uh oh!');
     }
 
     // A button will call this function
-    //
     function captureAudio() {
-        // Launch device audio recording application,
-        // allowing user to capture up to 2 audio clips
         navigator.device.capture.captureAudio(captureSuccess, captureError, {limit: 2});
     }
 
