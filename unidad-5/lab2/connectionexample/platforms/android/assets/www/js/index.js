@@ -61,7 +61,7 @@ function alertDismissed() {
             'Game Over',            // title
             'Done'                  // buttonName
         );
-    }
+ }
 
    
     function vibrate() {

@@ -26,12 +26,30 @@
         <title>Contacts</title>
     </head>
     <body>
-        <h1>Example</h1>
-        <p>Create Contact</p>
+        <h1>Ejemplo</h1>
+        <p>Buscar Contacto</p>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
-            app.initialize();
+        document.addEventListener("deviceready", onDeviceReady, false);
+
+            function onDeviceReady() {
+                // find all contacts with 'Bob' in any name field
+                var options = new ContactFindOptions();
+                options.filter = "Bob";
+                var fields = ["displayName", "name"];
+                navigator.contacts.find(fields, onSuccess, onError, options);
+            }
+
+            function onSuccess(contacts) {
+                for (var i = 0; i < contacts.length; i++) {
+                    alert("El nombre es = " + contacts[i].displayName);
+                }
+            }
+
+            function onError(contactError) {
+                alert('Fallo la busqueda de contactos!');
+            }
         </script>
     </body>
 </html>

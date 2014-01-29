@@ -23,6 +23,7 @@ c:\wamp\www\Agilapps\unidad-5\lab4\connectionNetwork\platforms\android\assets\ww
 c:\wamp\www\Agilapps\unidad-5\lab4\connectionNetwork\platforms\android\assets\www\css\index.css \
 c:\wamp\www\Agilapps\unidad-5\lab4\connectionNetwork\platforms\android\assets\www\img\logo.png \
 c:\wamp\www\Agilapps\unidad-5\lab4\connectionNetwork\platforms\android\assets\www\js\index.js \
+c:\wamp\www\Agilapps\unidad-5\lab4\connectionNetwork\platforms\android\assets\www\js\lab4.js \
 c:\wamp\www\Agilapps\unidad-5\lab4\connectionNetwork\platforms\android\assets\www\plugins\org.apache.cordova.network-information \
 c:\wamp\www\Agilapps\unidad-5\lab4\connectionNetwork\platforms\android\assets\www\plugins\org.apache.cordova.network-information\www \
 c:\wamp\www\Agilapps\unidad-5\lab4\connectionNetwork\platforms\android\assets\www\plugins\org.apache.cordova.network-information\www\Connection.js \

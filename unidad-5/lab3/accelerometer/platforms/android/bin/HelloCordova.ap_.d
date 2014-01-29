@@ -24,7 +24,11 @@ c:\wamp\www\Agilapps\unidad-5\lab3\accelerometer\platforms\android\assets\www\cs
 c:\wamp\www\Agilapps\unidad-5\lab3\accelerometer\platforms\android\assets\www\img\logo.png \
 c:\wamp\www\Agilapps\unidad-5\lab3\accelerometer\platforms\android\assets\www\js\index.js \
 c:\wamp\www\Agilapps\unidad-5\lab3\accelerometer\platforms\android\assets\www\plugins\org.apache.cordova.device-motion \
+c:\wamp\www\Agilapps\unidad-5\lab3\accelerometer\platforms\android\assets\www\plugins\org.apache.cordova.network-information \
 c:\wamp\www\Agilapps\unidad-5\lab3\accelerometer\platforms\android\assets\www\plugins\org.apache.cordova.device-motion\www \
 c:\wamp\www\Agilapps\unidad-5\lab3\accelerometer\platforms\android\assets\www\plugins\org.apache.cordova.device-motion\www\Acceleration.js \
 c:\wamp\www\Agilapps\unidad-5\lab3\accelerometer\platforms\android\assets\www\plugins\org.apache.cordova.device-motion\www\accelerometer.js \
+c:\wamp\www\Agilapps\unidad-5\lab3\accelerometer\platforms\android\assets\www\plugins\org.apache.cordova.network-information\www \
+c:\wamp\www\Agilapps\unidad-5\lab3\accelerometer\platforms\android\assets\www\plugins\org.apache.cordova.network-information\www\Connection.js \
+c:\wamp\www\Agilapps\unidad-5\lab3\accelerometer\platforms\android\assets\www\plugins\org.apache.cordova.network-information\www\network.js \
 c:\wamp\www\Agilapps\unidad-5\lab3\accelerometer\platforms\android\bin\AndroidManifest.xml \

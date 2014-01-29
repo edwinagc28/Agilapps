@@ -10,6 +10,6 @@
     <content src="index.html" />
     <access origin="*" />
     <feature name="Contacts">
-   		<param name="android-package" value="org.apache.cordova.contacts.ContactManager" />
-	</feature>
+        <param name="android-package" value="org.apache.cordova.ContactManager" />
+    </feature>
 </widget>
