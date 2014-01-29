@@ -34,7 +34,6 @@
         document.addEventListener("deviceready", onDeviceReady, false);
 
             function onDeviceReady() {
-                // find all contacts with 'Bob' in any name field
                 var options = new ContactFindOptions();
                 options.filter = "Bob";
                 var fields = ["displayName", "name"];
