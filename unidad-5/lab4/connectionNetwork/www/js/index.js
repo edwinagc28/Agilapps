@@ -10,7 +10,6 @@ var app = {
     // deviceready Event Handler
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        app.checkConnection();
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -23,12 +22,13 @@ var app = {
 
         console.log('Received Event: ' + id);
     }
+};
 
-    function checkConnection() {
+function checkConnection() {
             var networkState = navigator.connection.type;
 
             var states = {};
-            states[Connection.UNKNOWN]  = 'Unknown connection';
+            states[Connection.UNKNOWN]  = 'conexion invalida';
             states[Connection.ETHERNET] = 'Ethernet connection';
             states[Connection.WIFI]     = 'WiFi connection';
             states[Connection.CELL_2G]  = 'Cell 2G connection';
@@ -37,6 +37,5 @@ var app = {
             states[Connection.CELL]     = 'Cell generic connection';
             states[Connection.NONE]     = 'No network connection';
 
-            alert('Connection type: ' + states[networkState]);
+            alert('Tipo de conexion: ' + states[networkState]);
         }
-};

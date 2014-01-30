@@ -1,11 +1,9 @@
-c:\wamp\www\Agilapps\unidad-5\lab4\connectionNetwork\platforms\android\bin\classes.dex : \
-c:\wamp\www\Agilapps\unidad-5\lab4\connectionNetwork\platforms\android\bin\classes\io\cordova\hellocordova\BuildConfig.class \
-c:\wamp\www\Agilapps\unidad-5\lab4\connectionNetwork\platforms\android\bin\classes\io\cordova\hellocordova\HelloCordova.class \
-c:\wamp\www\Agilapps\unidad-5\lab4\connectionNetwork\platforms\android\bin\classes\io\cordova\hellocordova\R$attr.class \
-c:\wamp\www\Agilapps\unidad-5\lab4\connectionNetwork\platforms\android\bin\classes\io\cordova\hellocordova\R$drawable.class \
-c:\wamp\www\Agilapps\unidad-5\lab4\connectionNetwork\platforms\android\bin\classes\io\cordova\hellocordova\R$string.class \
-c:\wamp\www\Agilapps\unidad-5\lab4\connectionNetwork\platforms\android\bin\classes\io\cordova\hellocordova\R$xml.class \
-c:\wamp\www\Agilapps\unidad-5\lab4\connectionNetwork\platforms\android\bin\classes\io\cordova\hellocordova\R.class \
-c:\wamp\www\Agilapps\unidad-5\lab4\connectionNetwork\platforms\android\bin\classes\org\apache\cordova\networkinformation\NetworkManager$1.class \
-c:\wamp\www\Agilapps\unidad-5\lab4\connectionNetwork\platforms\android\bin\classes\org\apache\cordova\networkinformation\NetworkManager.class \
-c:\wamp\www\Agilapps\unidad-5\lab4\connectionNetwork\platforms\android\bin\dexedLibs\classes-10c022807f59767afb92e054d56b4601.jar \
+/Users/manuelpachon/Agilapps/unidad-5/lab4/connectionNetwork/platforms/android/bin/classes.dex : \
+/Users/manuelpachon/Agilapps/unidad-5/lab4/connectionNetwork/platforms/android/bin/classes/io/cordova/hellocordova/BuildConfig.class \
+/Users/manuelpachon/Agilapps/unidad-5/lab4/connectionNetwork/platforms/android/bin/classes/io/cordova/hellocordova/Conexiondered.class \
+/Users/manuelpachon/Agilapps/unidad-5/lab4/connectionNetwork/platforms/android/bin/classes/io/cordova/hellocordova/R$attr.class \
+/Users/manuelpachon/Agilapps/unidad-5/lab4/connectionNetwork/platforms/android/bin/classes/io/cordova/hellocordova/R$drawable.class \
+/Users/manuelpachon/Agilapps/unidad-5/lab4/connectionNetwork/platforms/android/bin/classes/io/cordova/hellocordova/R$string.class \
+/Users/manuelpachon/Agilapps/unidad-5/lab4/connectionNetwork/platforms/android/bin/classes/io/cordova/hellocordova/R$xml.class \
+/Users/manuelpachon/Agilapps/unidad-5/lab4/connectionNetwork/platforms/android/bin/classes/io/cordova/hellocordova/R.class \
+/Users/manuelpachon/Agilapps/unidad-5/lab4/connectionNetwork/platforms/android/bin/dexedLibs/classes-29b676a67533dff54ed49c4054789931.jar \

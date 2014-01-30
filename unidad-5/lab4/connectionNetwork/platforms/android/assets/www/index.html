@@ -7,31 +7,10 @@
     <title>Connection Network</title>
   </head>
   <body>
-    <p>La conexion que usted tiene se muestra por medio de la siguente alerta</p>
+    <p><a href="#" onClick="checkConnection(); return false;">Presione para conocer su tipo de conexión</a> </p>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript" src="js/lab5.js"></script>
     <script type="text/javascript">
-    document.addEventListener("deviceready", onDeviceReady, false);
-    function onDeviceReady() {
-        checkConnection();
-    }
-
-        function checkConnection() {
-            var networkState = navigator.connection.type;
-
-            var states = {};
-            states[Connection.UNKNOWN]  = 'Unknown connection';
-            states[Connection.ETHERNET] = 'Ethernet connection';
-            states[Connection.WIFI]     = 'WiFi connection';
-            states[Connection.CELL_2G]  = 'Cell 2G connection';
-            states[Connection.CELL_3G]  = 'Cell 3G connection';
-            states[Connection.CELL_4G]  = 'Cell 4G connection';
-            states[Connection.CELL]     = 'Cell generic connection';
-            states[Connection.NONE]     = 'No network connection';
-
-            alert('Connection type: ' + states[networkState]);
-        }
     </script>
 
   </body>
