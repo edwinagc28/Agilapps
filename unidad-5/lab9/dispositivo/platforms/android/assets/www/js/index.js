@@ -5,7 +5,7 @@ var app = {
     },
     // Bind Event Listeners
     bindEvents: function() {
-        document.addEventListener('deviceready', onDeviceReady, false);
+        document.addEventListener('deviceready',this.onDeviceReady, false);
     },
     // deviceready Event Handler
     onDeviceReady: function() {
@@ -24,19 +24,13 @@ var app = {
     }
 };
 
-function checkConnection() {
-    
-    var networkState = navigator.connection.type;
+function propertiesDevice(){
 
-    var states = {};
-    states[Connection.UNKNOWN]  = 'Conexión invalida';
-    states[Connection.ETHERNET] = 'Conexión por Ethernet';
-    states[Connection.WIFI]     = 'Conexión por WiFi';
-    states[Connection.CELL_2G]  = 'Conexión por 2G';
-    states[Connection.CELL_3G]  = 'Conexión por 3G';
-    states[Connection.CELL_4G]  = 'Conexión por 4G';
-    states[Connection.CELL]     = 'Conexión Generica';
-    states[Connection.NONE]     = 'No tiene conexión a la red';
+    var element = document.getElementById('deviceProperties');
 
-    alert('Tipo de conexion: ' + states[networkState]);
+    alert('Modelo del dispositivo: '+ device.model+
+          'Cordova dispositivo : '  + device.cordova+ 
+          'Plataforma del dispositivo: '+ device.platform +
+          'UUID del dispositivo: '      + device.uuid     + 
+          'Versión del dispositivo'     + device.version );
 }
